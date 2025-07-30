@@ -2,6 +2,10 @@
 
 body {
     font-family: "Roboto";
+}
+
+.mainBody {
+    font-family: "Roboto";
     color: black;
     text-align: center;
     font-size: 150%;
