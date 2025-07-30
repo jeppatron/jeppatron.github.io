@@ -1,7 +1,7 @@
 function rollFunction() {
-    slotOne.textContent = Math.floor(Math.random() * 9);
-    slotTwo.textContent = Math.floor(Math.random() * 9);
-    slotThree.textContent = Math.floor(Math.random() * 9);
+    slotOne.textContent = Math.floor(Math.random() * 10);
+    slotTwo.textContent = Math.floor(Math.random() * 10);
+    slotThree.textContent = Math.floor(Math.random() * 10);
     outputText.classList.remove("hidden");
     if (slotOne.textContent == slotTwo.textContent && slotTwo.textContent == slotThree.textContent) {
         if (slotOne.textContent == 7) {
