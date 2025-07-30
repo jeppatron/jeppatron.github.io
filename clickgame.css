@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+    font-family: "Roboto";
+    color: black;
+    text-align: center;
+    font-size: 150%;
+}
+
+.button {
+    font-size: 200%;
+}
+
+.button:hover {
+    font-style: italic;
+}
+
