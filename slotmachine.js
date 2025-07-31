@@ -3,7 +3,7 @@ function rollFunction() {
     slotTwo.textContent = Math.floor(Math.random() * 10);
     slotThree.textContent = Math.floor(Math.random() * 10);
     outputText.classList.remove("hidden");
-    if (slotOne.textContent == slotTwo.textContent && slotTwo.textContent == slotThree.textContent) {
+    if (slotOne.textContent == slotTwo.textContent && slotTwo.textContent == slotThree.textContent && slot_One.textContent > 0) {
         if (slotOne.textContent == 7) {
             outputText.textContent = "JACKPOT!!";
         }
