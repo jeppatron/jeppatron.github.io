@@ -8,15 +8,18 @@
         <div class="mainBody">
             <h2>Slot Machine</h2>
             <h1>
-                <div class="slots">
+                <div id="slots" class="slotNumbers">
                     <span id="slotOne">0 </span>
                     <span id="slotTwo"> 0 </span>
                     <span id="slotThree"> 0 </span>
                 </div>
             </h1>
-        </div>
         <button id="rollButton" class="clickButton">Roll!</button>
         <p id="outputText" class="hidden">Sample text!</p>
+        <p>Rolls = <span id="rollAmount">0</span></p>
+        <p>Good Rolls = <span id="goodRollAmount">0</span></p>
+        <p>Jackpot = <span id="jackpotAmount">0</span></p>
+        </div>
     </body>
     <script src="slotmachine.js"></script>
 </html>
