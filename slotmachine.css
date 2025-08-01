@@ -7,11 +7,11 @@ body {
 }
 
 .mainBody {
-    font-size: 150%;
+    font-size: 125%;
 }
 
 .clickButton {
-    font-size: 175%;
+    font-size: 125%;
 }
 
 .clickButton:hover {
