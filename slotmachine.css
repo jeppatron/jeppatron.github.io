@@ -18,6 +18,18 @@ body {
     font-weight: bold;
 }
 
+.rollFail {
+    color: red;
+}
+
+.rollGood {
+    color: green;
+}
+
+.jackpot {
+    color: gold
+}
+
 .hidden {
     display: none;
 }
