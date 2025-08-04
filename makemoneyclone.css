@@ -3,19 +3,21 @@
 body {
     font-family: "Roboto";
     text-align: center;
+    color: black;
 }
 
-.mainBody {
-    font-family: "Roboto";
-    color: black;
-    font-size: 150%;
+.earnDiv, .casinoDiv {
+    font-size: 105%;
 }
 
 .button {
-    font-size: 200%;
+    font-size: 110%;
 }
 
 .button:hover {
-    font-style: italic;
+    font-style: bold;
 }
 
+.hidden {
+    display: none;
+}
