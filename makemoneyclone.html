@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>click!</title>
-        <link rel="stylesheet" href="makemoneyclone.css">
+        <title>make money?</title>
+        <link rel="stylesheet" href="makemoneycopy.css">
     </head>
     <body>
-        <div class="mainBody" id="mainArea">
-            <p>Version 0.1</p>
-            <h1>Click!</h1>
-            <p><span id="clickOutput">0</span> clicks</p>
-            <p><button id="clickButton" class="button">Click me!</button></p>
-            <p>Clicks per click = <span id="clickCounter">1</span></p>
-            <p>Cost: <span id="clickCost">2</span> clicks</p>
-            <p><button id="addCountButton" class="button">Increase clicks!</button></p>
+        <p>Version 0.2.1</p>
+        <h1>Make Money! (knockoff)</h1>
+        <div id="earnArea" class="earnDiv">
+            <h2>Earn some money (in $)</h2>
+            <p><span id="moneyBalance">0</span>
+            <p><button id="earnButton" class="button">Earn money!</button></p>
+            <p>$/click = <span id="wage">1</span></p>
+            <p>Cost: <span id="addCost">2</span></p>
+            <p><button id="addWageButton" class="button">Increase clicks!</button></p>
+        </div>
+        <div id="casino" class="casinoDiv">
+            <h2>Casino!</h2>
+            <h4>Slot Machine</h4>
+            <h3>
+                <div id="slots" class="slotNumbers">
+                    <span id="slotOne">0 </span>
+                    <span id="slotTwo"> 0 </span>
+                    <span id="slotThree"> 0 </span>
+                </div>
+            </h3>
+            <p>
+                <label>Money Bet:</label>
+                <input type="text">
+            </p>
+            <button id="rollButton" class="button">Roll!</button>
+            <p id="outputText" class="hidden">Sample text!</p>
+            <p>Rolls = <span id="rollAmount">0</span></p>
+            <p>Good Rolls = <span id="goodRollAmount">0</span></p>
+            <p>Jackpot = <span id="jackpotAmount">0</span></p>
         </div>
     </body>
-    <script src="makemoneyclone.js"></script>
+    <script src="makemoneycopy.js"></script>
 </html>
