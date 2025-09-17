@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.eggfriedrice {
+    padding-right: 50px;
+}
